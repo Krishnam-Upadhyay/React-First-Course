@@ -1,7 +1,13 @@
-
+import './app.css'
+import Products from './Components/Products';
 function App(){
-   
-    return <p>This is First  Component</p>
+  
+    return (<div className='row'>
+        <div className='col-lg-8 mx-auto'>
+            <Products/>
+        </div>
+
+    </div>)
 }
 
 export default App;
